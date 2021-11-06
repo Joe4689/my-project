@@ -3,9 +3,9 @@ int main() {
         int x[4][2]={{0,25},{25,50},{50,75},{75,100}};
         int flag =0;
 		int rounds=0;
-        float number ;
+        int number ;
         printf("please enter a number: \n");
-        scanf("%f",&number);
+        scanf("%d",&number);
         while (rounds<5)
         {  if ((x[rounds][0]<number) && (number<x[rounds][1]))
                 {
